@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+}
+header, nav, main, footer, aside, section, article{
+	display:block;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width:100%;
+	height:62px;
+	background-color:#1b1e26;
+}
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+#logo{
+	width:295px;
+	display:block;
+	padding-left: 64px;
+	background:url('../images/logo.png') no-repeat;
+	background-position: 62px 12px;
+}
+
+#logo h1{
+	font-family: 'Pacifico', cursive;
+	color:#ffa100;
+	display: inline-block;
+	margin-left:38px;
+	padding-bottom: 10px;
+	font-weight: 100;
+}
+#logo>h2{
+	font-family: 'Quicksand', sans-serif;
+	color:white;
+	font-weight: 100;
+	display:inline-block;
+}
+
+nav{
+	height: 37px;
+  width: 100%;
+	line-height: 37px;
+}
+nav a{
+		color:#8e959c;
+		margin-left: 70px;
+}
+nav a:hover{
+	color: #6d7278;
+}
+main>section:first-child{
+	width: 100%;
+	height: 421px;
+	background:url('../images/cover.png') no-repeat ;
+  background-attachment: fixed;
+}
+main>h1{
+    font-size: 40px;
+		margin-top:27px;
+    margin-bottom: 30px;
+    font-weight: normal;
+		margin-left: 69px;
+		color:#8e959c;
+}
+
+hr{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left:71px;
+    border: 1px solid #e7e8ea;
+}
+
+#mainStatus {
+    border: 1px solid #e1e2e5;
+    border-bottom: 4px double #e1e2e5;
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 13px;
+		height: 274px;
+		width: 350px;
+		overflow:auto;
+		margin-left: 69px;
+
+}
+#mainStatus #bigPic{
+    margin-bottom: 13px;
+		display:block;
+}
+#mainStatus #squarePic{
+	float:left;
+	margin-right:11px;
+}
+
+main h2{
+    color: #454e5c;
+		display: block;
+    font-size: 21px;
+
+}
+main h3{
+	display: block;
+	font-size: 17px;
+	color: #8e959c;
+
+}
+
+#secondaryStatus{
+	width: 350px;
+	margin-bottom:70px;
+	margin-left: 69px;
+}
+
+#secondaryStatus img{
+	border-radius:50%;
+	float:left;
+	margin-right: 32px;
+}
+
+
+#lang{
+    background: #24272e;
+    height: 287px;
+    width: 100%;
+		padding:40px 0px 40px 69px;
+}
+
+#lang h1{
+    color: #ffffff;
+		margin-bottom: 10px;
+		font-size: 200%;
+}
+ #lang h2{
+    color: #8e959c;
+		display: block;
+		line-height: 90%;
+		font-size: 150%
+}
+
+footer{
+    height:92px;
+    line-height:150%;
+    background: #ffffff;
+    width:100%;
+		margin-left: 71px;
+}
+
+footer section a {
+		color: black;
+		margin-right: 69px;
+		font-size:150%;
+}
+footer section a:hover{
+		color: #6d7278;
+}
